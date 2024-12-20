@@ -1,0 +1,44 @@
+¥  % Assignment - GDB online Deb
+
+e nin
+
+Back to Classroom Submit Before: 11/10/2024, 11:56:00 PM
+
+WEEK13_1- The Knuth Morris-Pratt algorithm -DAA
+
+WEEK13_1- The Knuth Morris-Pratt algorithm -DAA:
+
+Pattern Matching in DNA Sequences Using KMP Algorithm
+
+In a DNA research project, you are given a long DNA sequence (text) and a smaller DNA sequence (pattern) that you want to search for within the long sequence. DNA sequences are
+represented as strings consisting of the characters ‘A’, 'C', 'G', and 'T’.
+
+Write a program that uses the Knuth-Morris-Pratt (KMP) algorithm to find all occurrences of the pattern within the text. Your program should output the starting indices of each occurrence of the
+pattern in the text.
+
+Input:
+
+1. Astring text, representing the DNA sequence to be searched.
+
+2. Astring pattern, representing the DNA sequence pattern to search for in the text.
+
+Output:
+
+. Alist of integers representing the starting indices of each occurrence of the pattern in the text. If the pattern does not occur in the text, return an empty list.
+
+Constraints:
+
+. The length of text is up to 10610*6106 characters.
+
+. The length of pattern is up to 10510*5105 characters.
+
+. Both text and pattern consist of only the characters 'A’, 'C', 'G', and 'T’.
+
+Example Input 1:
+
+text = "ACGTACGTGACG"
+pattern = "ACG" AQ
+Example Output 1:
+
+[0, 4, 9]
+
