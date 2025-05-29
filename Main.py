@@ -107,7 +107,7 @@ def takeCommand():
     return query
 # Add this function after the `takeCommand()` function
 def query_gemini_ai(query):
-    api_key = "AIzaSyBeac1otD1zowCXeY3Ikt6_YKrF5qw1LlA"
+    api_key = "YOUR_API_KEY"
     url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={api_key}"
     
     headers = {
